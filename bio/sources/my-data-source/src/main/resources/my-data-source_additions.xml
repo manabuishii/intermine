@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<classes>
+  <class name="Protein>" is-interface="true">
+    <attribute name="extraData" type="java.lang.String"/> 
+    <collection name="features"  referenced-type="NewFeature" reverse-reference="protein"/>  
+  </class>
+  <class name="NewFeature" extends="SequenceFeature" is-interface="true">
+    <attribute name="identifier" type="java.lang.String"/>  
+    <attribute name="confidence" type="java.lang.Double"/>
+    <reference name="protein" referenced-type="Protein" reverse-reference="features"/>
+  </class>
+</classes>
