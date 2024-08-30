@@ -21,7 +21,7 @@ import org.intermine.xml.full.Item;
  * 
  * @author
  */
-public class MyData2222SourceConverter extends BioFileConverter
+public class MyDataSourceConverter extends BioFileConverter
 {
     //
     private static final String DATASET_TITLE = "Add DataSet.title here";
