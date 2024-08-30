@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <classes>
-  <class name="Protein>" is-interface="true">
+  <class name="Protein" is-interface="true">
     <attribute name="extraData" type="java.lang.String"/> 
     <collection name="features"  referenced-type="NewFeature" reverse-reference="protein"/>  
   </class>
